@@ -47,6 +47,8 @@
 					});
 	
 	              });
+					
+					
 				</script>
 
 
@@ -71,9 +73,11 @@
 				<input type="text" name="estado" id="estado" size="5" /> <br />
 				<div id="saida"></div>
 				<br>
-
+            <button type="submit">Enviar os dados</button>
 			</form>
-
+      <br/>
+       ${msg} <!-- mensagem de retorno no servidor (Servlet), servlet3.jar mysql.jar, jstl.jar
+       -->
 
 		</div>
 
